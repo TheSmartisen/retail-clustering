@@ -1,0 +1,17 @@
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  intermediate_data: "data/intermediate/"
+  models: "models/"
+  reports: "reports/"
+
+files:
+  data_raw: "Online Retail.xlsx"
+  data_clean: "Online Retail Clean.csv"
+  data_rfm: "rfm_features.csv"
+  data_pca: "pca_features.csv"
+  model_file: "kmeans_model.pkl"
+
+pca:
+  apply: true
+  n_components: 2
